@@ -101,7 +101,7 @@ to {
   height: 150px;
   width: 100vw;
 
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
   align-items: flex-end;
   padding-bottom: 60px;

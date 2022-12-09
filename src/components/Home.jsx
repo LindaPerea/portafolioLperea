@@ -18,10 +18,10 @@ const Home = () => {
                 <div>
                     <div className='buttons' >
                         <Link to={"/proyects"}>
-                            <button className='button1 ' >Proyects</button>
+                            <button className='button1 ' >Proyectos</button>
                         </Link>
                         <Link to={"/about"}>
-                            <button className='button2'>About Me</button>
+                            <button className='button2'>Acerca de Mí</button>
                         </Link>
                     </div>
                 </div>
@@ -41,9 +41,7 @@ const Home = () => {
                             <li className='li react'><i class="fa-brands fa-react react"></i></li>
                         </ul>
                     </div>
-                    <div>
-                        
-                    </div>
+
                     <Rotate3D/>
                 </div>
                 
