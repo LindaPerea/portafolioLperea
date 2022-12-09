@@ -1,9 +1,10 @@
 import React from 'react';
 import img1 from "../assets/img/img1.jpg"
 import img2 from "../assets/img/img2.jpg"
-import img3 from "../assets/img/img3.png"
+import img3 from "../assets/img/img3.jpg"
 import img4 from "../assets/img/img4.jpg"
-// import img5 from "../assets/img/img1.jpg"
+import img5 from "../assets/img/img5.jpg"
+import img6 from "../assets/img/img6.jpg"
 import react from "../assets/img/react.svg"
 
 const Rotate3D = () => {
@@ -12,10 +13,10 @@ const Rotate3D = () => {
 
             <div className='caja'>
                 <div className='cara cara1'>
-                    <img src={img2} alt="" />
+                    <img src={img1} alt="" />
                 </div>
                 <div className='cara cara2'>
-                    <img src={img2} alt="" />
+                    <img src={img2} alt="" />    
                 </div>
                 <div className='cara cara3'>
                     <img src={img3} alt="" />
@@ -24,10 +25,10 @@ const Rotate3D = () => {
                     <img src={img4} alt="" />
                 </div>
                 <div className='cara cara5'>
-                    <img src={img2} alt="" />
+                    <img src={img5} alt="" />
                 </div>
                 <div className='cara cara6'>
-                    <img src={img2} alt="" />
+                    <img src={img6} alt="" />
                 </div>
             </div>
         </div>

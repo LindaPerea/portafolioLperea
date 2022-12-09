@@ -15,6 +15,16 @@ const Home = () => {
             <NavBar />
             <div className=' bg  '>
                 <Articles />
+                <div>
+                    <div className='buttons' >
+                        <Link to={"/proyects"}>
+                            <button className='button1 ' >Proyects</button>
+                        </Link>
+                        <Link to={"/about"}>
+                            <button className='button2'>About Me</button>
+                        </Link>
+                    </div>
+                </div>
                 <div className='text'>
                     <div className=''>
                         <h2 className='text-color'>Linda Perea <span className='typed'></span></h2>
@@ -26,25 +36,16 @@ const Home = () => {
                     <h4>Habilidades en:</h4>
                     <div className='country'>
                         <ul className='ul'>
-                            <li className='li'><i class="fa-brands fa-html5"></i> </li>
-                            <li className='li'>Js</li>
-                            <li className='li'><i class="fa-brands fa-react react"></i></li>
+                            <li className='li html'><i class="fa-brands fa-html5"></i> </li>
+                            <li className='li js'>Js</li>
+                            <li className='li react'><i class="fa-brands fa-react react"></i></li>
                         </ul>
                     </div>
                     <div>
                         <Rotate3D/>
                     </div>
                 </div>
-                <div>
-                    <div className='' >
-                        <Link to={"/proyects"}>
-                            <button className='button1 ' >Proyects</button>
-                        </Link>
-                        <Link to={"/about"}>
-                            <button className='button2'>About Me</button>
-                        </Link>
-                    </div>
-                </div>
+                
 
 
 
