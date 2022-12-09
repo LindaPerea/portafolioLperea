@@ -23,13 +23,14 @@ const Proyects = () => {
             <div className='card'>
                 <div className='face front'>
                     <img src={img1} alt="" />
-                    <h3>Ecommerce</h3>
+                    <h3>Frases</h3>
                 </div>
                 <div className='face back'>                    
                     <h3></h3>
-                    <p>Ecommerce realizado en React y Bootstrap utilizando React-Router, Redux, Hooks</p>
+                    <p>Frases aleatorias en Ingles, que sincronizadamente cambian de color el fondo, el texto y el mismo bóton</p>
                     <div className='link'>
-                        <a href="#Details"></a>
+                        <p>Ir al Proyecto</p>
+                        <a href="https://app.netlify.com/sites/englishphrases/overview"></a>
                     </div>
                 </div>
             </div>
@@ -37,13 +38,14 @@ const Proyects = () => {
             <div className='card'>
                 <div className='face front'>
                     <img src={img2} alt="" />
-                    <h3>Api de Pokemones</h3>
+                    <h3>Api del Clima</h3>
                 </div>
                 <div className='face back'>
                     <h3></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem molestias odit ratione officiis architecto ipsam, maiores, dolores libero eos eum saepe illum amet. Odit harum illo dicta sunt quisquam.</p>
+                    <p>Api del clima que te devuelve la temperatura según tu ubicación. Desarrollado en React, HTMl y Css</p>
                     <div className='link'>
-                        <a href="#Details"></a>
+                    <p>Ir al Proyecto</p>
+                        <a href="https://app.netlify.com/sites/weatherlinda/overview"></a>
                     </div>
                 </div>
             </div>
@@ -51,18 +53,19 @@ const Proyects = () => {
             <div className='card'>
                 <div className='face front'>
                     <img className='img-cover' src={img3} alt="" />
-                    <h3>Api de Rick and Morty</h3>
+                    <h3>Api de Pokemones</h3>
                 </div>
                 <div className='face back'>
                     <h3>React</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem molestias odit ratione officiis architecto ipsam, maiores, dolores libero eos eum saepe illum amet. Odit harum illo dicta sunt quisquam.</p>
+                    <p>Divertida api para que conozcas a todos los Pokemons según sus características</p>
                     <div className='link'>
+                    <p>Ir al Proyecto</p>
                         <a href="https://app.netlify.com/sites/ecommercewhithreact/overview"></a>
                     </div>
                 </div>
             </div>
 
-            <div className='card'>
+            {/* <div className='card'>
                 <div className='face front'>
                     <img src={img4} alt="" />
                     <h3>Ecommerce</h3>
@@ -70,23 +73,25 @@ const Proyects = () => {
                 <div className='face back'>
                     <Articles/>
                     <h3></h3>
-                    <p>Ecommerce realizado en React y Bootstrap utilizando React-Router, Redux, Hooks</p>
+                    <p>Aplicación de usuarios que actualiza los datos, los elimina y limpia los campos</p>
                     <div className='link'>
+                    <p>Ir al Proyecto</p>
                         <a href="#Details"></a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <div className='card'>
                 <div className='face front'>
                     <img src={img5} alt="" />
-                    <h3>Api de Pokemones</h3>
+                    <h3>Ecommerce</h3>
                 </div>
                 <div className='face back'>
                     <h3></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem molestias odit ratione officiis architecto ipsam, maiores, dolores libero eos eum saepe illum amet. Odit harum illo dicta sunt quisquam.</p>
+                    <p>Ecommerce-Tienda virtual realizado en React y Bootstrap utilizando React-Router, Redux, Hooks</p>
                     <div className='link'>
-                        <a href="#Details"></a>
+                    <p>Ir al Proyecto</p>
+                        <a href="https://app.netlify.com/sites/ecommercewhithreact/overview"></a>
                     </div>
                 </div>
             </div>
@@ -98,9 +103,10 @@ const Proyects = () => {
                 </div>
                 <div className='face back'>
                     <h3>React</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum exercitationem molestias odit ratione officiis architecto ipsam, maiores, dolores libero eos eum saepe illum amet. Odit harum illo dicta sunt quisquam.</p>
+                    <p>Conoce el mundo de Rick and Morty con esta api desarrollada en React, usando hooks y consumiendo la api.</p>
                     <div className='link'>
-                        <a href="#Details"></a>
+                        <p>Ir al Proyecto</p>
+                        <a href="https://app.netlify.com/sites/rickandmortylp/overview"></a>
                     </div>
                 </div>
             </div>

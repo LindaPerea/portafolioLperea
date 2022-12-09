@@ -488,7 +488,7 @@ font-size: 30px;
 
 /* about */
 .back-about {
-  background-color: #20f856;
+  background-color: #380b24;
   width: 100vw;
   height: 100vh;
 }
@@ -502,10 +502,15 @@ font-size: 30px;
 }
 
 .foto-about img {
-  background-color: #195208bb;
+  background-color: #f59ed1bb;
   width: 50%;
  
   border-radius: 45px;
+}
+
+.text-about {
+  color: white;
+  line-height: 25px;
 }
 
 /* button en proyects que va al home */

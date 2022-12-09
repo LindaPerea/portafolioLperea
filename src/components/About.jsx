@@ -15,7 +15,7 @@ const About = () => {
                 <div className='foto-about '>
                     <img className='' src={foto1} alt="" />
                 </div>
-                <div className='' >
+                <div className='text-about' >
                     <div className=' ' >
                         <h3>Contacts</h3>
                         <div>
@@ -28,7 +28,9 @@ const About = () => {
                     <div>
                         <h3>Linda Hellyn Perea</h3>
                         <p>
-                            xx
+                            Desarrollador Fron-End, y egresada de Administración de Empresas con 13 años de experiencia en el sector financiero en diferentes areas a lo largo de mi carrera, 4 años con experiencia en empresas de saneamiento como lo es el agua potable en las areas de planificación y el area de reclamos, encargada 1 mes del sistema de facturación de usuarios de la oficina principal
+
+                            Me gusta los desafios, acostumbrada a ha realizar de manera organizada varias tareas si la situación lo requiere, la programación para mi es plasmar las ideas de los clientes en aplicativos faciles de usar y agradables a la vista para disfrutar.
                         </p>
                     </div>
                 </div>
