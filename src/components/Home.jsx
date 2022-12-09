@@ -42,8 +42,9 @@ const Home = () => {
                         </ul>
                     </div>
                     <div>
-                        <Rotate3D/>
+                        
                     </div>
+                    <Rotate3D/>
                 </div>
                 
 
