@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <div>
+        
             <nav className='container' >
                 <div className='navbar'>
-                    
+                    <div></div>
                     <ul className='ul-navbar'>
                         <li className='img-linke' >
                             <i className="fa-brands fa-linkedin"><a href="www.linkedin.com/in/linda-perea"></a></i>
@@ -34,7 +34,7 @@ const NavBar = () => {
             </nav>
             
 
-        </div>
+        
     );
 };
 
