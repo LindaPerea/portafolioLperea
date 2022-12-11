@@ -7,34 +7,34 @@ import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        
-            <nav className='container' >
-                <div className='navbar'>
-                    <div></div>
-                    <ul className='ul-navbar'>
-                        <li className='img-linke' >
-                            <i className="fa-brands fa-linkedin"><a href="www.linkedin.com/in/linda-perea"></a></i>
 
-                        </li>
-                        <li className='img-email'>
-                            <i className="fa-solid fa-square-envelope"><a href="https://www.instagram.com/lindahellynperea/"></a></i>
-                        </li>
-                        <li className='img-pdf'>
-                            <a href=""></a><i className="fa-solid fa-file-pdf"></i>
-                        </li>
-                        <li className='img-wasi'>
-                            <i className="fa-brands fa-square-whatsapp"><a href="https://api.whatsapp.com/message/74UFOE7GRBTPN1?autoload=1&app_absent=0"></a></i>
-                        </li>
-                    </ul>
-                    <div className='moon' id="dark-mode" >
-                        <i className=" toggle fa-solid fa-moon"></i>
-                    </div>
+        <nav className='container' >
+            <div className='navbar'>
+                <div></div>
+                <ul className='ul-navbar'>
+                    <li className='img-linke' >
+                        <a href="www.linkedin.com/in/linda-perea"><i className="fa-brands fa-linkedin"></i></a>
 
+                    </li>
+                    <li className='img-email'>
+                        <a href="mailto:linda.hp@hotmail.com"><i className="fa-solid fa-square-envelope"></i></a>
+                    </li>
+                    <li className='img-pdf'>
+                        <a href="https://docs.google.com/document/d/1UUQmeXDkoR_CVwTq-dAid3Ghc0Tf28Pc7Hr0vjbqXlc/edit?usp=sharing"><i className="fa-solid fa-file-pdf"></i></a>
+                    </li>
+                    <li className='img-wasi'>
+                        <a href="https://wa.me/message/74UFOE7GRBTPN1"><i className="fa-brands fa-square-whatsapp"></i></a>
+                    </li>
+                </ul>
+                <div className='moon' id="dark-mode" >
+                    <i className=" toggle fa-solid fa-moon"></i>
                 </div>
-            </nav>
-            
 
-        
+            </div>
+        </nav>
+
+
+
     );
 };
 
