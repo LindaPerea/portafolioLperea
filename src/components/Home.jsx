@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='slide-text'>
+                {/* <div className='slide-text'>
                     <h4>Habilidades en:</h4>
                     <div className='country'>
                         <ul className='ul'>
@@ -42,8 +42,9 @@ const Home = () => {
                         </ul>
                     </div>
 
-                    <Rotate3D/>
-                </div>
+                    
+                </div> */}
+                <Rotate3D/>
                 
 
 

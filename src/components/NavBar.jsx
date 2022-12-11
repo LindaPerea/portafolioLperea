@@ -26,9 +26,9 @@ const NavBar = () => {
                         <a href="https://wa.me/message/74UFOE7GRBTPN1"><i className="fa-brands fa-square-whatsapp"></i></a>
                     </li>
                 </ul>
-                <div className='moon' id="dark-mode" >
-                    <i className=" toggle fa-solid fa-moon"></i>
-                </div>
+                {/* <div className='moon' id="dark-mode" > */}
+                    {/* <i className=" toggle fa-solid fa-moon"></i> */}
+                {/* </div> */}
 
             </div>
         </nav>
