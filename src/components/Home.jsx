@@ -15,7 +15,7 @@ const Home = () => {
             <NavBar />
             <div className=' bg  '>
                 <Articles />
-                <div>
+                {/* <div className='center'> */}
                     <div className='buttons' >
                         <Link to={"/proyects"}>
                             <button className='button1 ' >Proyectos</button>
@@ -24,11 +24,11 @@ const Home = () => {
                             <button className='button2'>Acerca de Mí</button>
                         </Link>
                     </div>
-                </div>
+                {/* </div> */}
                 <div className='text'>
-                    <div className=''>
+                    <div className='center'>
                         <h2 className='text-color'>Linda Perea <span className='typed'></span></h2>
-                        <h1 className='text-front '>Developer Front End<span>&#160;</span></h1>
+                        <h1 className='text-front '>Front-End <span>&#160;</span></h1>
                     </div>
                 </div>
 
