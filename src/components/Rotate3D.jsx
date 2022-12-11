@@ -1,11 +1,11 @@
 import React from 'react';
-import img1 from "../assets/img/img1.jpg"
-import img2 from "../assets/img/img2.jpg"
-import img3 from "../assets/img/img3.jpg"
-import img4 from "../assets/img/img4.jpg"
-import img5 from "../assets/img/img5.jpg"
-import img6 from "../assets/img/img6.jpg"
-import react from "../assets/img/react.svg"
+import img1 from "../assets/img/html1Gif.gif"
+import img2 from "../assets/img/jsGif.gif"
+import img3 from "../assets/img/cssGif.gif"
+import img4 from "../assets/img/reactGif.gif"
+import img5 from "../assets/img/reactGif.gif"
+import img6 from "../assets/img/jsGif.gif"
+
 
 const Rotate3D = () => {
     return (
