@@ -28,7 +28,7 @@ const Home = () => {
                 <div className='text'>
                     <div className='center'>
                         <h2 className='text-color'>Linda Perea <span className='typed'></span></h2>
-                        <h1 className='text-front '>Front-End <span>&#160;</span></h1>
+                        <h1 className='text-front '>Full-Stack <span>&#160;</span></h1>
                     </div>
                 </div>
 

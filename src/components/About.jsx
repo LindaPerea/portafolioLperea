@@ -2,22 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import foto1 from "../assets/img/foto1.png"
 import wasi from "../assets/img/wasi.png"
+import Articles from './Articles';
 import NavBar from './NavBar';
 
 const About = () => {
 
     return (
-        <div>
+        <div className='front-about'>
             <NavBar />
             <div className='back-about'>
-            
+            <Articles />
                 <div className='foto-about '>
                     <img className='' src={foto1} alt="" />
                 </div>
                 <div className='text-about' >
                     <div className=' ' >
                         <h3>Contacto</h3>
-                        <div>
+                        <div className='links-about'>
                         <a href="https://wa.me/message/74UFOE7GRBTPN1"><i className="fa-brands fa-square-whatsapp">51+99064-5017</i></a>
     
                         </div>

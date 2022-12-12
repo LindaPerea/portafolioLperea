@@ -299,9 +299,9 @@ h4 {
 /* navBar */
 
 .container {
-
 /* background-color: rgb(249, 246, 249); */
 width: 100%;
+z-index: 99;
 
 }
 .navbar {
@@ -310,6 +310,10 @@ grid-template-columns: repeat(3, 1fr);
 background-color: #dd99b3;
 }
 
+.home-navbar{
+  text-decoration: none;
+  padding: 18px;
+}
 .ul-navbar {
 display: flex;
 list-style: none;
@@ -335,9 +339,9 @@ padding-bottom: 10px;
   }
 
   .img-pdf {
-    font-size: 25px;
-    color: rgb(224, 13, 13);
-    padding: 18px;
+    font-size: 18px;
+    /* color: rgb(224, 13, 13); */
+    padding: 15px;
     z-index: 99;
   }
 
@@ -490,6 +494,10 @@ padding-bottom: 10px;
 }
 
 /* about */
+
+.front-about {
+  z-index: 99;
+}
 .back-about {
   background-color: #380b24;
   width: 100vw;
@@ -497,7 +505,12 @@ padding-bottom: 10px;
   font-family: 'Raleway', sans-serif;
   padding-left: 30px;
   padding-right: 30px;
+  z-index: 99;
   
+}
+
+.links-about {
+  text-decoration: none;
 }
 
 .foto-about {

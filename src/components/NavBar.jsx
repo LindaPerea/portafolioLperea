@@ -1,8 +1,9 @@
 import React from 'react';
-import wasi from "../assets/img/wasi.png"
+// import wasi from "../assets/img/wasi.png"
 // import linke from "../assets/img/linkedin.png"
-import insta from "../assets/img/insta.png"
-import email from "../assets/img/email.png"
+// import insta from "../assets/img/insta.png"
+// import email from "../assets/img/email.png"
+// import cv from "../assets/img/cv.png"
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -21,7 +22,7 @@ const NavBar = () => {
                         <a href="mailto:linda.hp@hotmail.com"><i className="fa-solid fa-square-envelope"></i></a>
                     </li>
                     <li className='img-pdf'>
-                        <a href="https://docs.google.com/document/d/1UUQmeXDkoR_CVwTq-dAid3Ghc0Tf28Pc7Hr0vjbqXlc/edit?usp=sharing"><i className="fa-solid fa-file-pdf"></i></a>
+                        <a href="https://docs.google.com/document/d/1UUQmeXDkoR_CVwTq-dAid3Ghc0Tf28Pc7Hr0vjbqXlc/edit?usp=sharing"><i class="fa-solid fa-c"></i><i class="fa-solid fa-v"></i></a>
                     </li>
                     <li className='img-wasi'>
                         <a href="https://wa.me/message/74UFOE7GRBTPN1"><i className="fa-brands fa-square-whatsapp"></i></a>

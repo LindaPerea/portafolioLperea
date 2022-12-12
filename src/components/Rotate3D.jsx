@@ -3,8 +3,8 @@ import img1 from "../assets/img/html1Gif.gif"
 import img2 from "../assets/img/jsGif.gif"
 import img3 from "../assets/img/cssGif.gif"
 import img4 from "../assets/img/reactGif.gif"
-import img5 from "../assets/img/codigoGif.gif"
-import img6 from "../assets/img/codigo1.gif"
+import img5 from "../assets/img/redux_S.png"
+import img6 from "../assets/img/router_S.png"
 
 
 const Rotate3D = () => {
