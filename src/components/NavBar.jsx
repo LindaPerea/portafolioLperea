@@ -10,7 +10,8 @@ const NavBar = () => {
 
         <nav className='container' >
             <div className='navbar'>
-                <div></div>
+                <div className='home-navbar'>
+                <Link to={"/"}>Home</Link></div>
                 <ul className='ul-navbar'>
                     <li className='img-linke' >
                         <a href="www.linkedin.com/in/linda-perea"><i className="fa-brands fa-linkedin"></i></a>
