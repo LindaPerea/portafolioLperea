@@ -15,7 +15,7 @@ const NavBar = () => {
                 <Link to={"/"}>Home</Link></div>
                 <ul className='ul-navbar'>
                     <li className='img-linke' >
-                        <a href="www.linkedin.com/in/linda-perea"><i className="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/linda-perea/"><i className="fa-brands fa-linkedin"></i></a>
 
                     </li>
                     <li className='img-email'>
