@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from "../assets/img/html1Gif.gif"
-import img2 from "../assets/img/jsGif.gif"
-import img3 from "../assets/img/cssGif.gif"
-import img4 from "../assets/img/reactGif.gif"
+import img1 from "../assets/img/html_S.png"
+import img2 from "../assets/img/javascript_S.png"
+import img3 from "../assets/img/css_S.png"
+import img4 from "../assets/img/react_S.png"
 import img5 from "../assets/img/redux_S.png"
 import img6 from "../assets/img/router_S.png"
 
@@ -14,6 +14,7 @@ const Rotate3D = () => {
             <div className='caja'>
                 <div className='cara cara1'>
                     <img src={img1} alt="" />
+                    
                 </div>
                 <div className='cara cara2'>
                     <img src={img2} alt="" />    
@@ -25,6 +26,7 @@ const Rotate3D = () => {
                     <img src={img4} alt="" />
                 </div>
                 <div className='cara cara5'>
+                    
                     <img src={img5} alt="" />
                 </div>
                 <div className='cara cara6'>

@@ -54,15 +54,16 @@ const Articles = () => {
                     },
                     particles: {
                         color: {
-                            value: "9FF80C",
+                            value: "fffbfa",                     
                         },
-                        links: {
-                            color: "FCE96F",
-                            distance: 150,
-                            enable: true,
-                            opacity: 0.5,
-                            width: 1,
-                        },
+                        
+                        // links: {
+                        //     color: "292e1e",
+                        //     distance: 150,
+                        //     enable: true,
+                        //     opacity: 0.5,
+                        //     width: 1,
+                        // },
                         collisions: {
                             enable: true,
                         },
@@ -87,11 +88,13 @@ const Articles = () => {
                             value: 0.5,
                         },
                         shape: {
-                            type: "square",
+                            // type: "star",
+                            "type": ["circle","star"]
+                         
                         },
                       
                         size: {
-                            value: { min: 1, max: 3 },
+                            value: { min: 2, max: 5 },
                         },
                     },
                     detectRetina: true,
