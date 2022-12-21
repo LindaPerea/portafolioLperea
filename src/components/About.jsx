@@ -1,15 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import foto1 from "../assets/img/foto1.png"
+import foto1 from "../assets/img/f1.png"
 import wasi from "../assets/img/wasi.png"
 import Articles from './Articles';
-import NavBar from './NavBar';
+
 
 const About = () => {
 
     return (
         <div className='front-about'>
-            <NavBar />
             <div className='back-about'>
             <Articles />
                 <div className='foto-about '>

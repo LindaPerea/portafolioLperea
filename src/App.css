@@ -490,7 +490,7 @@ h1 span {
 }
 
 .back-about {
-  background-color: #380b24;
+  background: #3c787e;
   width: 100vw;
   height: 100vh;
   font-family: 'Raleway', sans-serif;
@@ -506,9 +506,10 @@ h1 span {
 
 .foto-about {
   display: flex;
+  object-fit: cover;
   justify-content: center;
-  width: 100vw;
-  height: 400px;
+  width: 100%;
+  
   padding-top: 30px;
 
 }
@@ -516,6 +517,8 @@ h1 span {
 .foto-about img {
   background-color: #f59ed1bb;
   width: 50%;
+  height: 500px;
+  
   border-radius: 45px;
 }
 

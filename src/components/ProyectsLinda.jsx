@@ -37,16 +37,7 @@ const ProyectsLinda = () => {
                 <div className='gallery-item'>
                     <a href="https://weatherlinda.netlify.app"><img src={img7} alt="" /></a>
                 </div>
-                {/* <div className='gallery-item'>
-                    <img src={ecommerce} alt="" />
-                </div>
-                <div className='gallery-item'>
-                    <img src={ecommerce} alt="" />
-                </div>
-                <div className='gallery-item'>
-                    <img src={ecommerce} alt="" />
-                </div> */}
-                
+               
 
             </main>
 
