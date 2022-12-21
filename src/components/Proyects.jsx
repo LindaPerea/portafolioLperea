@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 // import img5 from "../assets/img/img5.jpg"
 // import img6 from "../assets/img/img6.jpg"
 import Articles from './Articles';
-import NavBar from './NavBar';
+
 
 const Proyects = () => {
     return (
         <div className='background-button'>
-            <NavBar />
+            
             {/* <div className='button-en-proyects'>
                 <Link to={"/"}>
                     <button className='button2'>Home</button>

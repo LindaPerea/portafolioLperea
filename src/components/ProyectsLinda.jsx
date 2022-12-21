@@ -1,6 +1,5 @@
 import React from 'react';
 import "../assets/css/proyectsLinda.css"
-import NavBar from './NavBar';
 import img1 from "../assets/img/poke1.jpg"
 import img4 from "../assets/img/users1.jpg"
 import img3 from "../assets/img/phrases1.jpg"

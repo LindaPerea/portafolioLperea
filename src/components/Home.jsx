@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import moon from "../assets/img/moon.png"
 import Articles from './Articles';
 
 
