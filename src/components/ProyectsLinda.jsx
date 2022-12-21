@@ -1,7 +1,7 @@
 import React from 'react';
 import "../assets/css/proyectsLinda.css"
 import img1 from "../assets/img/poke1.jpg"
-import img4 from "../assets/img/users1.jpg"
+// import img4 from "../assets/img/u1.jpg"
 import img3 from "../assets/img/phrases1.jpg"
 import img5 from "../assets/img/calc1.jpg"
 import img2 from "../assets/img/rick1.jpg"
