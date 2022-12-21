@@ -12,7 +12,7 @@ const NavBar = () => {
         <nav className='container' >
             <div className='navbar'>
                 <div className='home-navbar'>
-                <Link to={"/"}>Home</Link></div>
+                <Link to={"/"} className="home-navbar" >Inicio</Link></div>
                 <ul className='ul-navbar'>
                     <li className='img-linke' >
                         <a href="https://www.linkedin.com/in/linda-perea/"><i className="fa-brands fa-linkedin"></i></a>

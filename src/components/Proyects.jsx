@@ -1,12 +1,11 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import img1 from "../assets/img/img1.jpg"
-import img2 from "../assets/img/img2.jpg"
-import img3 from "../assets/img/img3.jpg"
-import img4 from "../assets/img/img4.jpg"
-import img5 from "../assets/img/img5.jpg"
-import img6 from "../assets/img/img6.jpg"
+// import img1 from "../assets/img/img1.jpg"
+// import img2 from "../assets/img/img2.jpg"
+// import img3 from "../assets/img/img3.jpg"
+// import img4 from "../assets/img/img4.jpg"
+// import img5 from "../assets/img/img5.jpg"
+// import img6 from "../assets/img/img6.jpg"
 import Articles from './Articles';
 import NavBar from './NavBar';
 
@@ -20,8 +19,6 @@ const Proyects = () => {
                 </Link>
             </div> */}
             <div className='body-proyects'  >
-
-
                 <div className='card'>
                     <div className='face front'>
                         <img src={img1} alt="" />

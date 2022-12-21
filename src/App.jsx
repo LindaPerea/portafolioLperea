@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Proyects from './components/Proyects';
 import About from './components/About';
 import ProyectsLinda from './components/ProyectsLinda';
+import NavBar from './components/NavBar';
 
 
 
@@ -15,14 +16,13 @@ function App() {
 
   return (
     <HashRouter>
-
+<NavBar />
       <Routes>
         
         <Route path="/" element={<Home/>} />
-        
-        <Route path="/proyects" element={<Proyects/>} />
+        <Route path='/proyects' element={<ProyectsLinda/>} />        
         <Route path="/about" element={<About/>} />
-        <Route path='/proyectslinda' element={<ProyectsLinda/>} />
+        
       </Routes>
     
     </HashRouter>

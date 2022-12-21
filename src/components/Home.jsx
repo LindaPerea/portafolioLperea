@@ -12,7 +12,7 @@ const Home = () => {
 
     return (
         <div>
-            <NavBar />
+            
             <div className=' bg  '>
                 <Articles />
 
@@ -28,28 +28,25 @@ const Home = () => {
                 <div className='text center'>
                     <div className='center'>
                         <h2 className='text-color'>Linda Perea <span className='typed'></span></h2>
-                        <h1 className='text-front '>Developer. <span>&#160;</span></h1>
-                        
+                        <h1 className='text-front '>Developer . <span>&#160;</span></h1>
+                        <div className='slide-text'>
+                    <div className='country'>
+                        <ul className='ul'>
+                            <li className='li html'>HTML </li>
+                            <li className='li js'>Js</li>
+                            <li className='li react'>React</li>
+                            {/* <li className='li react'>Css</li> */}
+                        </ul>
                     </div>
                 </div>
 
+                    </div>
+                    
+                </div>
+                
 
-
+                
                 <Rotate3D />
-
-                <div className='slide-text'>
-                            <div className='country'>
-                                <ul className='ul'>
-                                    <li className='li html'>HTML </li>
-                                    <li className='li js'>Js</li>
-                                    <li className='li react'>React</li>
-                                    {/* <li className='li react'>Css</li> */}
-                                </ul>
-                            </div>
-                        </div>
-
-
-
 
             </div>
         </div>

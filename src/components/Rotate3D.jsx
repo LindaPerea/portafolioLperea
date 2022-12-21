@@ -10,7 +10,6 @@ import img6 from "../assets/img/router_S.png"
 const Rotate3D = () => {
     return (
         <div className='contenedor'>
-
             <div className='caja'>
                 <div className='cara cara1'>
                     <img src={img1} alt="" />

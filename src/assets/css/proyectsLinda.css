@@ -1,24 +1,42 @@
-*,
+/* *,
 * ::before,
 * ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
+.hexagono-background {
+    background-color: #3c787e;
+    height: 100vh;
+}
+
+.title-galery {
+    width: 100%;
+    text-align: center;
+    padding: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
+}
+
 .gallery {
+    background-color: #3c787e;
     width: 85%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
-    background-color: red;
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(auto-fit, 133px);
     grid-auto-rows: 200px;
     justify-content: center;
@@ -27,14 +45,67 @@ img {
 
 }
 
+/* aqui le damos forma de hexagono */
+
 .gallery-item {
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    grid-column: span 2; /*266px + 17px = 283px*/
+    grid-column: span 2;
+    /*266px + 17px = 283px*/
     height: 283px;
 }
 
-
-
-.gallery-item :first-of-type {
+.gallery-item:first-of-type {
     grid-column: 2 / span 2;
+}
+
+.gallery-item:hover {
+    filter: brightness(0.3);
+}
+
+/* media queries */
+
+@media screen and (min-width:270px) and (max-width:504px) {
+    .gallery-item:first-of-type {
+        grid-column: 1 / span 2;
+    }
+
+    .gallery {
+        grid-auto-rows: 283px;
+    }
+}
+
+@media screen and (min-width:505px) and (max-width:685px) {
+    .gallery-item:nth-of-type(odd) {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width:686px) and (max-width:862px) {
+    .gallery-item:nth-of-type(3n + 1) {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width:863px) and (max-width:1038px) {
+    .gallery-item:nth-of-type(4n + 1) {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width:1039px) and (max-width:1215px) {
+    .gallery-item:nth-of-type(5n + 1) {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width:1216px) and (max-width:1391px) {
+    .gallery-item:nth-of-type(6n + 1) {
+        grid-column: 2 / span 2;
+    }
+}
+
+@media screen and (min-width:1392px) {
+    .gallery-item:nth-of-type(7n + 1) {
+        grid-column: 2 / span 2;
+    }
 }

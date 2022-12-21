@@ -28,7 +28,7 @@ ul {
 }
 
 .text {
-  height: 250px;
+  height: 200px;
   padding-top: 30px;
   display: flex;
   justify-content: center;
@@ -43,7 +43,6 @@ ul {
 
 .text-color {
   color: #d56f3e;
-
   font-family: 'Marko One', serif;
   font-size: 4rem;
 }
@@ -52,6 +51,7 @@ ul {
   color: #241623;
   font-family: 'Marko One', serif;
   /* width: 350px; */
+  height: 100px;
 
 }
 
@@ -59,7 +59,7 @@ ul {
   z-index: 1;
   margin: auto;
   display: table;
-  /* z-index: 99; */
+ 
 }
 
 /* texto animado de un peruano buscar el video */
@@ -72,10 +72,10 @@ h1 span {
   position: absolute;
   right: 0;
   width: 0;
-  height: 70px;
+  height: 80px;
   background: #3c787e;
 
-  animation: maquina 3s infinite alternate steps(12);
+  animation: maquina 3s infinite alternate steps(14);
 }
 
 @keyframes maquina {
@@ -91,13 +91,12 @@ h1 span {
 
 /* slider vertical */
 .slide-text {
-  /* width: 100vw; */
-  
+  /* width: 100vw; */  
   display: flex;
   justify-content: center;
-  height: 150px;
+  height: 80px;
   color: rgb(8, 6, 6);
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 
 .country {
@@ -108,6 +107,7 @@ h1 span {
 .li {
   list-style: none;
   font-family: 'Marko One', serif;
+  font-size: 25px;
   
 }
 
@@ -163,9 +163,6 @@ h1 span {
 
 
 
-
-
-
 /* about */
 
 
@@ -180,15 +177,13 @@ h1 span {
   font-family: sans-serif;
 }
 
-
-
 .body-proyects {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: rgb(70, 4, 59);
+  background: #3c787e;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr;
 }
@@ -366,18 +361,10 @@ h1 span {
 
 .buttons {
   width: 100%;
-  margin-left: center;
-  margin-right: center;
+  /* margin-left: center;
+  margin-right: center; */
   padding-top: 30px;
-
-  .transition {
-    transition: transform: 1s;
-
-    :hover {
-      transform: scale(2);
-    }
-  }
-
+  padding-left: 30px;
 
 }
 
@@ -404,7 +391,7 @@ h1 span {
 
 .contenedor {
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -523,7 +510,6 @@ h1 span {
   width: 100vw;
   height: 400px;
   padding-top: 30px;
-
 
 }
 
