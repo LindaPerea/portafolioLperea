@@ -24,16 +24,29 @@ const Home = () => {
                     </Link>
                 </div>
 
+                <div className="grid-img-center width">
+                    <div className="wrapper">
+                        <div className="static-txt">Linda Perea</div>
+                        <ul className="dynamic-txts">
+                            <li><span>Developer</span></li>
+                            <li><span>Front end</span></li>
+                            <li><span>Back end</span></li>
+                            <li><span>FullStack</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <Rotate3D />
+
                 <div className='text center'>
                     <div className='center'>
-                        <h2 className='text-color'>Linda Perea <span className='typed'></span></h2>
-                        <h1 className='text-front '>Developer . <span>&#160;</span></h1>
+                        <h2 className='text-color'><span className='typed'></span></h2>
+                        <h1 className='text-front '><span>&#160;</span></h1>
                         <div className='slide-text'>
                             <div className='country'>
                                 <ul className='ul'>
-                                    <li className='li html'>HTML </li>
-                                    <li className='li js'>Js</li>
-                                    <li className='li react'>React</li>
+                                    <li className='li html'>HTML-CSS </li>
+                                    <li className='li js'>Js-React</li>
+                                    <li className='li react'>NodeJs</li>
                                     {/* <li className='li react'>Css</li> */}
                                 </ul>
                             </div>
@@ -42,7 +55,7 @@ const Home = () => {
 
                 </div>
 
-                <Rotate3D />
+                
 
             </div>
         </div>

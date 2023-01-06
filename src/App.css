@@ -140,18 +140,15 @@ h1 span {
     transform: translateY(0);
   }
 
-  15%,
-  30% {
+  15%, 30% {
     transform: translateY(-100%);
   }
 
-  45%,
-  60% {
+  45%, 60% {
     transform: translateY(-200%);
   }
 
-  75%,
-  90% {
+  75%, 90% {
     transform: translateY(-300%);
   }
 
@@ -532,4 +529,67 @@ h1 span {
 
 .background-button {
   background: rgb(70, 4, 59)
+}
+
+
+/* css typin */
+
+.wrapper {
+  /* display: inline-flex; */
+  text-align: center;
+}
+
+.wrapper .static-txt {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  color: #b70505;
+  list-style: none;
+  font-size: 58px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide2 6s steps(4) infinite;
+}
+
+@keyframes slide2 {
+  100% {
+    top: -360px;
+    
+
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+}
+
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #3c787e;
+  border-left: 2px solid #b70505;
+  animation: typing 1.5s steps(12) infinite;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+
+  }
 }
