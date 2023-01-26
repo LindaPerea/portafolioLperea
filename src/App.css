@@ -1,7 +1,11 @@
-/* Reset */
+/* Reset básico */
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  width: 100%;
 }
 
 h1 h2 h3 ul p {
@@ -20,7 +24,7 @@ ul {
   width: 100%;
   z-index: -9;
   height: 100vh;
-  font-family: 'Raleway', sans-serif;
+  
 }
 
 .particles {
@@ -35,21 +39,13 @@ ul {
   /* background-color: red; */
 }
 
-/* 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .text-color {
   color: #d56f3e;
-  font-family: 'Marko One', serif;
   font-size: 4rem;
 }
 
 .text-front {
   color: #241623;
-  font-family: 'Marko One', serif;
   /* width: 350px; */
   height: 100px;
 
@@ -106,7 +102,6 @@ h1 span {
 .ul,
 .li {
   list-style: none;
-  font-family: 'Marko One', serif;
   font-size: 25px;
   
 }
@@ -171,7 +166,7 @@ h1 span {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Marko One', serif;
 }
 
 .body-proyects {
@@ -490,7 +485,7 @@ h1 span {
   background: #3c787e;
   width: 100vw;
   height: 100vh;
-  font-family: 'Raleway', sans-serif;
+  
   padding-left: 30px;
   padding-right: 30px;
   z-index: 99;
@@ -501,14 +496,13 @@ h1 span {
   text-decoration: none;
 }
 
-.foto-about {
+.center-landing {
   display: flex;
-  object-fit: cover;
   justify-content: center;
-  width: 100%;
-  
+}
+.foto-about {
+  width: 100%;  
   padding-top: 30px;
-
 }
 
 .foto-about img {
@@ -582,7 +576,7 @@ h1 span {
   height: 100%;
   width: 100%;
   background: #3c787e;
-  border-left: 2px solid #b70505;
+  /* border-left: 2px solid #b70505; */
   animation: typing 1.5s steps(12) infinite;
 }
 

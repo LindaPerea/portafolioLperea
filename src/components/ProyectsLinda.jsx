@@ -24,9 +24,9 @@ const ProyectsLinda = () => {
                 <div className='gallery-item'>
                     <a href="https://englishphrases.netlify.app"><img src={img3} alt="" /></a>
                 </div>
-                <div className='gallery-item'>
+                {/* <div className='gallery-item'>
                     <img src={img5} alt="" />
-                </div>
+                </div> */}
                 <div className='gallery-item'>
                     <a href="https://rickandmortylp.netlify.app"><img src={img2} alt="" /></a>
                 </div>
@@ -35,8 +35,7 @@ const ProyectsLinda = () => {
                 </div>
                 <div className='gallery-item'>
                     <a href="https://weatherlinda.netlify.app"><img src={img7} alt="" /></a>
-                </div>
-               
+                </div>             
 
             </main>
 

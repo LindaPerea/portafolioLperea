@@ -19,8 +19,8 @@ const Home = () => {
                     <Link to={"/proyects"}>
                         <button className='button1 '><b> PROYECTOS </b></button>
                     </Link>
-                    <Link to={"/about"}>
-                        <button className='button2'><b> CONOCEME</b></button>
+                    <Link to={"/servicios"}>
+                        <button className='button2'><b> SERVICIOS</b></button>
                     </Link>
                 </div>
 
@@ -31,7 +31,7 @@ const Home = () => {
                             <li><span>Developer</span></li>
                             <li><span>Front end</span></li>
                             <li><span>Back end</span></li>
-                            <li><span>FullStack</span></li>
+                            <li><span>Diseño Web</span></li>
                         </ul>
                     </div>
                 </div>
