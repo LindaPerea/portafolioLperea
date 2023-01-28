@@ -21,21 +21,21 @@ const Servicios = () => {
                 </div>
                 
             </div>
-                {/* <div className='text-about' >
+                <div className='text-about' >
                     <div className='center-contacto' >
                         <div className='links-about'>
                         <a href="https://wa.me/message/74UFOE7GRBTPN1">CONTACTAME</a>    
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <h3>Soy Linda Hellyn Perea</h3>
                         <p>
                             Developer FullStack, egresada de la carrera de Administración de Empresas con 13 años de experiencia en el sector financiero, 4 años con experiencia en empresas de saneamiento como lo es el agua potable.
 
                             disfruta de realizar proyectos para ayudar a los grandes y pequeños negocios a digitalizarse, migrar de una manera sencilla. Me gusta los desafios, acostumbrada a ha realizar de manera organizada varias tareas si la situación lo requiere, la programación para mi es plasmar las ideas de los clientes en aplicativos faciles de usar y agradables a la vista para que sea una experiencia de usuario inolvidable.
                         </p>
-                    </div>
-                </div> */}
+                    </div> */}
+                </div>
 
             </div>
 
