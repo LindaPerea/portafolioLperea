@@ -6,6 +6,7 @@ img {
 
 .hexagono-background {
     background-color: #3c787e;
+    height: 100vh;
     /* height: 100%; */
     /* overflow: hidden; */
     
@@ -25,10 +26,11 @@ img {
 .gallery {
     /* background-color: #3c787e; */
     width: 85%;
-    height: 100%;
+    
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
+
 
     display: grid;
     grid-template-columns: repeat(auto-fit, 133px);
